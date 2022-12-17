@@ -25,7 +25,7 @@ A repo used for accelerating Neural Network Training Process.
 11.（test_percent=‘测试集的比率（0.z）’) (optional)  
 {x + y + (z) = 1}
 - auto_annotations_v5(v7)  
-这两个包致力于自动标注，在提供.pt模型的情况下可以自动生成YOLO格式的标注文件(.txt)，再导入cvat检查并修改后便可以用作新一轮的数据集  
+这两个包致力于自动标注(支持yolov5与yolov7两种神经网络模型)，在提供.pt模型的情况下可以自动生成YOLO格式的标注文件(.txt)，再导入cvat检查并修改后便可以用作新一轮的数据集  
 需修改的内容：  
 1.在该包的根目录中放入神经网络模型  'best.pt'  
 2.在本项目的根目录中的'images'目录中放入需要标注的图片  
