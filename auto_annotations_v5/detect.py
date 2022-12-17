@@ -53,7 +53,7 @@ def run(weights='best.pt',  # model.pt path(s)
     save_txt = True
     save_img = not nosave and not source.endswith('.txt')  # save inference images
     webcam = source.isnumeric() or source.endswith('.txt') or source.lower().startswith(
-        ('rtsp://', 'rtmp://', 'http://', 'https://'))
+        ('rtsp://', 'rtmp://', 'https://', 'https://'))
 
     # Directories
     save_dir = increment_path(Path(project) / name, exist_ok=exist_ok)  # increment run
